@@ -1,14 +1,8 @@
-/**
- * Created by م on  22/01/2022.
- */
-public interface Stack<E> {
+public interface Stack <T>{
     boolean isEmpty();
-    int size();
-    E top();
-    void push(E element);
-    E pop();
-
-
-
+   void push(T t);
+   T pop();
+   T top();
+   int size();
 
 }
